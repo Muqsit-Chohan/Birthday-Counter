@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Birthday Counter</h1>
+
+            <label for="userName">Enter Your Name:</label><br>
+            <input type="text" id="userName" placeholder="Your name"><br>
+
+            <label for="dateInput">Choose a Date and Time:</label><br>
+            <input type="datetime-local" id="dateInput"><br>
+
+            <button onclick="startCountdown()">Start Countdown</button>
+
+            <div id="greeting"></div>
+            <div id="counter"></div>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
